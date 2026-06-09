@@ -1,0 +1,12 @@
+from alchemy import potions
+
+
+def main() -> None:
+    print("=== Distillation 0 ===")
+    print("Direct access to alchemy/potions.py")
+    print("Testing strength_potion: ", end='')
+    print(f"{potions.healing_potion()}")
+
+
+if __name__ == "__main__":
+    main()
