@@ -1,8 +1,8 @@
-import alchemy.elements
+import alchemy
 
 
 def main() -> None:
-    print("=== Alembic 2 ===")
+    print("=== Alembic 3 ===")
     print("Accessing alchemy/elements.py"
           " using 'import ...' structure")
     earth = alchemy.elements.create_earth()
