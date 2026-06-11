@@ -1,11 +1,11 @@
-from alchemy import elements
+from alchemy.elements import create_air
 
 
 def main() -> None:
     print("=== Alembic 3 ===")
     print("Accessing alchemy/elements.py"
           " using 'from ... import ...' structure")
-    air = elements.create_air()
+    air = create_air()
     print(f"Testing create_air: {air}")
 
 
